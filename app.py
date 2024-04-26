@@ -108,7 +108,7 @@ with col3:
             data_result = st.session_state.prediction_result
             first_result = next(iter(data_result.items()))
 
-            st.subheader(f"Category :green[{first_result[0]} {round(first_result[1], 2)}%]")
+            st.subheader(f":green[{first_result[0]} {round(first_result[1], 2)}%]")
             st.write(data_result)
 
 
